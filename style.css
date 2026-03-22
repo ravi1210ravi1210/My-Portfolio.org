@@ -459,3 +459,12 @@ textarea {
 .end {
   color: #ffffff;
 }
+
+@media(max-width: 480px) {
+
+  .footer-link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
